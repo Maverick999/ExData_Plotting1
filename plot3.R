@@ -22,7 +22,7 @@ Powermod$Sub_metering_1 <- as.numeric(Powermod$Sub_metering_1)
 Powermod$Sub_metering_2 <- as.numeric(Powermod$Sub_metering_2)
 Powermod$Sub_metering_3 <- as.numeric(Powermod$Sub_metering_3)
 
-##Creating PNG file plot2.png, plotting histogram, and closing graphics device
+##Creating PNG file plot3.png, plotting histogram, and closing graphics device
 png(file = "./ExploratoryAnalysis/plot3.png", width = 480, height = 480 )
 
 #Plotting Energy Submetering vs datetime
